@@ -1,6 +1,7 @@
 # DSDelivery
 
 Modelo conceitual:
+
 ![modelo-conceitual](https://github.com/ViniciusDaCunha/DSDelivery/assets/99222396/9e6f8b7a-a068-47f5-a4d5-a5cd2de9ef63)
 
 O DSDelivery é um projeto de sistema de delivery que permite que os clientes possam realizar pedidos de forma fácil e rápida, bem como acompanhar o status de seus pedidos.
