@@ -7,9 +7,11 @@ Modelo conceitual:
 O DSDelivery é um projeto de sistema de delivery que permite que os clientes possam realizar pedidos de forma fácil e rápida, bem como acompanhar o status de seus pedidos.
 
 Objetivos
+
 O objetivo do projeto é criar um sistema de delivery que seja fácil de usar, seguro e escalável. Para isso, serão seguidos os seguintes passos:
 
 Checklist
+
 Realizar o setup inicial do projeto
 Configurar as dependências necessárias
 Configurar os arquivos .properties
@@ -30,6 +32,7 @@ Criar um app e provisionar Postgres
 Criar a base de dados remota
 Executar os comandos necessários no Heroku CLI
 Dependências
+
 Para este projeto, serão utilizadas as seguintes dependências:
 
 Web: Para criar endpoints e controladores.
@@ -40,21 +43,27 @@ Arquivos .properties
 Os arquivos .properties serão utilizados para configurar o sistema de acordo com o ambiente em que ele está sendo executado. Serão criados arquivos para os ambientes de desenvolvimento, teste e produção.
 
 Configuração de segurança
+
 A segurança do sistema será garantida pelo Spring Security. Será criado um login e senha para acessar o sistema, bem como será definido o papel de cada usuário.
 
 Modelo de domínio
+
 O modelo de domínio será definido de acordo com as necessidades do sistema. Serão definidas as entidades e os relacionamentos necessários para o funcionamento do sistema.
 
 Entidades e relacionamentos
+
 As entidades e relacionamentos serão criados de acordo com o modelo de domínio definido. Serão utilizadas as anotações JPA para realizar o mapeamento objeto-relacional.
 
 Mapeamento objeto-relacional
+
 O mapeamento objeto-relacional será realizado com o uso do Hibernate, que é uma implementação da especificação JPA.
 
 Seed
+
 Será criado um seed com dados de teste para facilitar o desenvolvimento e testes do sistema.
 
 Criar endpoints
+
 Serão criados os seguintes endpoints:
 
 [GET] /products: Retorna todos os produtos disponíveis para compra.
